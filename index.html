@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jay Jagdamba Iron Workshop – Gates, Jali & Boundary Gates</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f3ec;--card:#fff;--ink:#1c2128;--mute:#5d6570;--dark:#14181d;--accent:#d9622b;--accent2:#b8481a;--line:#e3dccf;--on-dark:#f3ede2;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1317;--card:#181d23;--ink:#f1ece2;--mute:#9aa3ad;--dark:#0a0d10;--line:#2a313a}}
+:root[data-theme="dark"]{--bg:#0f1317;--card:#181d23;--ink:#f1ece2;--mute:#9aa3ad;--dark:#0a0d10;--line:#2a313a}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:Oswald,Impact,sans-serif;letter-spacing:.02em;margin:0;line-height:1.15}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:var(--dark);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.nav{display:flex;justify-content:space-between;align-items:center;height:60px}
+.logo{font-family:Oswald,sans-serif;color:var(--on-dark);font-size:17px;letter-spacing:.04em;text-decoration:none}
+.logo b{color:var(--accent)}
+.nav a.btn{padding:8px 16px;font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;border:0;padding:14px 26px;border-radius:6px;font:600 16px Inter,sans-serif;cursor:pointer}
+.btn:hover{background:var(--accent2)}
+.hero{background:linear-gradient(135deg,#14181d 0%,#222a33 100%);color:var(--on-dark);padding:84px 0 92px;border-bottom:6px solid var(--accent)}
+.hero h1{font-size:clamp(34px,7vw,60px);max-width:680px}
+.hero h1 span{color:var(--accent)}
+.hero p{max-width:520px;color:#c9c2b4;font-size:18px;margin:18px 0 28px}
+section{padding:68px 0}
+.eyebrow{color:var(--accent);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px}
+h2{font-size:clamp(26px,5vw,38px);margin-bottom:28px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:24px}
+.card h3{font-size:21px;margin-bottom:8px}
+.card p{margin:0;color:var(--mute)}
+.why{background:var(--dark);color:var(--on-dark)}
+.why .card{background:#1b2128;border-color:#2b333c;border-top-color:var(--accent)}
+.why .card p{color:#aeb6bf}
+.formbox{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:28px;max-width:560px}
+label{display:block;font-weight:600;font-size:14px;margin:16px 0 6px}
+label:first-child{margin-top:0}
+input,textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:16px Inter,sans-serif}
+input:focus,textarea:focus{outline:2px solid var(--accent);border-color:transparent}
+.formbox .btn{margin-top:22px;width:100%}
+#msg{margin-top:14px;font-weight:500}
+.ok{color:#2e8b57}.err{color:#c0392b}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+th,td{padding:10px 12px;border:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--dark);color:var(--on-dark)}
+footer{background:var(--dark);color:#aeb6bf;padding:34px 0;font-size:14px}
+footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#top">JAY JAGDAMBA <b>IRON WORKSHOP</b></a>
+<a class="btn" href="#book">Book Now</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<h1>Strong Gates. <span>Built to Last.</span></h1>
+<p>Custom iron gates, jali and boundary gates, crafted with precision and finished to protect your home and property.</p>
+<a class="btn" href="#book">Book Your Gate</a>
+</div></div>
+
+<section><div class="wrap">
+<div class="eyebrow">What we make</div>
+<h2>Our Products</h2>
+<div class="grid">
+<div class="card"><h3>Iron Gates</h3><p>Sturdy main gates and entrance gates for homes, shops and factories, made in the design and size you need.</p></div>
+<div class="card"><h3>Jali Work</h3><p>Decorative and secure jali for windows, balconies and gates, combining strength with a clean look.</p></div>
+<div class="card"><h3>Boundary Gates</h3><p>Reliable boundary gates and fencing for plots, farms and compounds, built for heavy daily use.</p></div>
+</div></div></section>
+
+<section class="why"><div class="wrap">
+<div class="eyebrow">Why choose us</div>
+<h2>Craftsmanship You Can Trust</h2>
+<div class="grid">
+<div class="card"><h3>Made to Measure</h3><p>Every gate is built to your exact size and requirement.</p></div>
+<div class="card"><h3>Durable Build</h3><p>Strong iron, solid welding and a finish made to last.</p></div>
+<div class="card"><h3>Simple Booking</h3><p>Share your details in one short form and we will get in touch with you.</p></div>
+</div></div></section>
+
+<section id="book"><div class="wrap">
+<div class="eyebrow">Book a gate</div>
+<h2>Booking Form</h2>
+<div class="formbox">
+<label for="name">Customer Name</label><input id="name" autocomplete="name" placeholder="Your full name">
+<label for="contact">Contact Number</label><input id="contact" type="tel" autocomplete="tel" placeholder="Your phone number">
+<label for="size">Gate Size</label><input id="size" placeholder="e.g. 10 ft wide × 6 ft high">
+<label for="addr">Address</label><textarea id="addr" rows="3" placeholder="Where the gate is to be installed"></textarea>
+<button class="btn" id="submit" type="button">Submit Booking</button>
+<div id="msg" role="status"></div>
+</div>
+</div></section>
+
+<section id="enq" hidden style="padding-top:0"><div class="wrap">
+<div class="eyebrow">Owner only</div>
+<h2>Booking Requests</h2>
+<div class="tbl"><table><thead><tr><th>Date</th><th>Name</th><th>Contact</th><th>Gate Size</th><th>Address</th></tr></thead><tbody id="rows"><tr><td colspan="5">No bookings yet.</td></tr></tbody></table></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<strong style="color:var(--on-dark)">Jay Jagdamba Iron Workshop</strong><br>
+Founder: Lakhan Singh Gaur · <a href="mailto:gaurlaksharajSingh@gmail.com">gaurlaksharajSingh@gmail.com</a><br>
+© Jay Jagdamba Iron Workshop. All rights reserved.
+</div></footer>
+
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var db=null;
+function show(t,c){var m=$('msg');m.textContent=t;m.className=c}
+function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML}
+Promise.all([claude.use('db'),claude.use('user')]).then(function(r){
+ db=r[0];var user=r[1];
+ if(db&&user&&user.isOwner()){
+  $('enq').hidden=false;
+  db.collection('bookings').orderBy('createdAt','desc').onSnapshot(function(s){
+   if(!s.docs.length)return;
+   $('rows').innerHTML=s.docs.map(function(d){var x=d.data();
+    return '<tr><td>'+esc(new Date(x.createdAt).toLocaleString())+'</td><td>'+esc(x.name)+'</td><td>'+esc(x.contact)+'</td><td>'+esc(x.size)+'</td><td>'+esc(x.address)+'</td></tr>'}).join('');
+  },function(){});
+ }
+}).catch(function(){});
+$('submit').onclick=function(){
+ var v={name:$('name').value.trim(),contact:$('contact').value.trim(),size:$('size').value.trim(),address:$('addr').value.trim()};
+ if(!v.name||!v.contact||!v.size||!v.address){show('Please fill in all four fields.','err');return}
+ if(!db){show('Booking is not available right now. Please try again later.','err');return}
+ v.createdAt=Date.now();
+ $('submit').disabled=true;
+ db.collection('bookings').add(v).then(function(){
+  ['name','contact','size','addr'].forEach(function(i){$(i).value=''});
+  show('Thank you! Your booking request has been received. We will contact you soon.','ok');
+ }).catch(function(){show('Could not submit. Please try again.','err')}).then(function(){$('submit').disabled=false});
+};
+})();
+</script>
+</body>
+</html>
